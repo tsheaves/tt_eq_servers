@@ -7,7 +7,7 @@ cd ~/factory-test
 git clone -b tt06 https://github.com/TinyTapeout/tt-support-tools tt
 cd ~/factory-test/
 # Set up the environment and a couple aliases I added
-source /opt/tt/setup.sh
+. "/opt/tt/setup.sh"
 # Enter the prebuilt virtual environment
 tt_venv
 # Creates the TT user_config.tcl
